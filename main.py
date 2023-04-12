@@ -1,8 +1,9 @@
-from main_menu import MainMenu
+from menu import MainMenu
 
 
 def main():
-    menu = MainMenu("utdanning-vurdering")
+    component = input("Project: fint-core-consumer-")
+    menu = MainMenu(component)
     menu.run()
 
 
